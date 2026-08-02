@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<keyboard version="1">
+    <commands>
+        <key command="Exit" shortcut="Ctrl+Q" removed="true"/>
+        <key command="Clear" shortcut="G" removed="true"/>
+        <key command="Clear" shortcut="X" removed="true"/>
+        <key command="Fill" shortcut="F" removed="true"/>
+        <key command="Stroke" shortcut="S" removed="true"/>
+        <key command="GotoPreviousFrame" context="Normal" shortcut="D"/>
+        <key command="GotoPreviousFrame" context="Normal" shortcut="2"/>
+        <key command="GotoNextFrame" context="Normal" shortcut="F"/>
+        <key command="GotoNextFrame" context="Normal" shortcut="0"/>
+        <key command="DeselectMask" shortcut="Ctrl+D" removed="true"/>
+        <key command="PaletteEditor" shortcut="A" removed="true"/>
+        <key command="SwitchColors" shortcut="X" removed="true"/>
+        <key command="ChangeBrush" shortcut="+" removed="true">
+            <param name="change" value="increment-size"/>
+        </key>
+        <key command="ChangeBrush" shortcut="W">
+            <param name="change" value="increment-size"/>
+        </key>
+        <key command="ChangeBrush" shortcut="- Pad" removed="true">
+            <param name="change" value="decrement-size"/>
+        </key>
+        <key command="ChangeBrush" shortcut="S">
+            <param name="change" value="decrement-size"/>
+        </key>
+        <key command="ChangeBrush" shortcut="Alt+1" removed="true">
+            <param name="change" value="custom"/>
+            <param name="slot" value="1"/>
+        </key>
+        <key command="ChangeBrush" shortcut="Alt+2" removed="true">
+            <param name="change" value="custom"/>
+            <param name="slot" value="2"/>
+        </key>
+        <key command="ChangeBrush" shortcut="Alt+3" removed="true">
+            <param name="change" value="custom"/>
+            <param name="slot" value="3"/>
+        </key>
+        <key command="ChangeBrush" shortcut="D">
+            <param name="change" value="increment-angle"/>
+        </key>
+        <key command="ChangeBrush" shortcut="A">
+            <param name="change" value="decrement-angle"/>
+        </key>
+        <key command="RunScript" shortcut="Alt+Shift+G">
+            <param name="filename" value="C:\Users\tanya\AppData\Roaming\Aseprite\scripts\dialogs\gradients\gradientMap.lua"/>
+        </key>
+        <key command="RunScript" shortcut="Alt+Shift+">
+            <param name="filename" value="C:\Users\tanya\AppData\Roaming\Aseprite\scripts\dialogs\gradients\gradientMap.lua"/>
+        </key>
+        <key command="ChangeBrush" shortcut="Ctrl" removed="true">
+            <param name="change" value="custom"/>
+            <param name="slot" value="11"/>
+        </key>
+        <key command="ChangeBrush" shortcut="Ctrl+1">
+            <param name="change" value="custom"/>
+            <param name="slot" value="11"/>
+        </key>
+        <key command="ChangeBrush" shortcut="Ctrl+2">
+            <param name="change" value="custom"/>
+            <param name="slot" value="12"/>
+        </key>
+        <key command="ChangeBrush" shortcut="Ctrl+3">
+            <param name="change" value="custom"/>
+            <param name="slot" value="13"/>
+        </key>
+        <key command="RunScript" shortcut="Ctrl+D">
+            <param name="filename" value="C:\Users\tanya\AppData\Roaming\Aseprite\scripts\dialogs\color\filter\dither.lua"/>
+        </key>
+        <key command="ChangeBrush" shortcut="Alt+1">
+            <param name="change" value="custom"/>
+            <param name="slot" value="25"/>
+        </key>
+        <key command="ChangeBrush" shortcut="Alt+2">
+            <param name="change" value="custom"/>
+            <param name="slot" value="35"/>
+        </key>
+        <key command="ChangeBrush" shortcut="Alt+3">
+            <param name="change" value="custom"/>
+            <param name="slot" value="36"/>
+        </key>
+    </commands>
+    <tools>
+        <key tool="lasso" shortcut="Q" removed="true"/>
+        <key tool="polygonal_lasso" shortcut="Shift+Q" removed="true"/>
+        <key tool="magic_wand" shortcut="W" removed="true"/>
+        <key tool="paint_bucket" shortcut="Shift+G" removed="true"/>
+        <key tool="paint_bucket" shortcut="G"/>
+        <key tool="line" shortcut="L" removed="true"/>
+        <key tool="curve" shortcut="Shift+L" removed="true"/>
+        <key tool="rectangle" shortcut="U" removed="true"/>
+        <key tool="rectangle" shortcut="Ctrl+Q"/>
+        <key tool="filled_rectangle" shortcut="U" removed="true"/>
+        <key tool="filled_rectangle" shortcut="Q"/>
+        <key tool="contour" shortcut="D" removed="true"/>
+        <key tool="contour" shortcut="L"/>
+    </tools>
+    <quicktools>
+        <key tool="move" shortcut="Ctrl" removed="true"/>
+        <key tool="paint_bucket" shortcut="G" removed="true"/>
+        <key tool="contour" shortcut="Shift+L" removed="true"/>
+        <key tool="contour" shortcut="X"/>
+    </quicktools>
+    <actions/>
+    <wheel/>
+    <drag/>
+</keyboard>
